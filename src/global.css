@@ -1,0 +1,18 @@
+html, body{
+  font-family: 'PoppinsRegular', 'Rubik', sans-serif;
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
+b{
+  font-family: 'PoppinsMedium';
+}
+
+
+.width-fix{
+  width: calc(100% - 1.25rem);
+  max-width: 50rem;
+  margin: 0 auto;
+}

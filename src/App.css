@@ -1,0 +1,9 @@
+/* EXTERNOS */
+@import url(./assets/css-external/animate.css);
+
+
+
+/* ESTILOS LOCAIS */
+@import url(./assets/css/cores.css);
+@import url(./assets/css/fonts.css);
+@import url(./assets/css/header.css);
