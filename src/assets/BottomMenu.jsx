@@ -4,6 +4,7 @@ import { faBookOpen, faUtensils,
 
 export function BottomMenu() {
   return (
+    <>
     <section className="menu-bottom" id="menu-bottom">
       <a className="menu-bottom-item active">
         <FontAwesomeIcon icon={faBookOpen} size="1x" />
@@ -19,5 +20,11 @@ export function BottomMenu() {
         Carrinho
       </a>
     </section>
+
+    <section class="menu-bottom disabled hidden" id="menu-bottom-closed">
+        <p class="mb-0"><b>Loja fechada no momento.</b></p>
+    </section>
+    
+    </>
   );
 }

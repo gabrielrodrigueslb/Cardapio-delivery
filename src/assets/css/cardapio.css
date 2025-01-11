@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-.container-img-produto img{
+.container-img-produto{
     width: 100px;
     height: 100px;
     background-repeat: no-repeat;
@@ -17,7 +17,6 @@
     border-radius: 15px;
     margin-right: 20px;
     flex: none;
-    background-size: cover
 }
 
 .infos-produto{

@@ -1,7 +1,7 @@
 
 import { ItemMenu } from './ItemMenu';
 
-const produtos = [
+export const produtos = [
   {
     id: 1,
     url: './img/calabresa.jpg',

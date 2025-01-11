@@ -1,0 +1,30 @@
+
+.bg-top.datails{
+    height: 410px;
+}
+
+.container-voltar {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
+
+.container-imagem-produto{
+    height: 240px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    position: relative;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    flex: none;
+    background-size: cover;
+
+}

@@ -7,8 +7,11 @@ export function ItemMenu(props){
             <div className="d-flex">
               <div
                 className="container-img-produto"
+                style={{
+                  backgroundImage: `url(${props.url})`,
+                  backgroundSize: 'cover',
+                }}
               >
-                <img src={props.url} alt={props.name} />
               </div>
 
               <div className="infos-produto">
