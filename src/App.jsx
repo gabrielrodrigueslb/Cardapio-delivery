@@ -4,6 +4,7 @@ import './App.css'
 import './global.css'
 import { Header } from './assets/Header'
 import { Menu } from './assets/Menu';
+import { Cardapio } from './assets/Cardapio';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       <Header />
       <Menu />
+      <Cardapio />
     </>
   )
 }

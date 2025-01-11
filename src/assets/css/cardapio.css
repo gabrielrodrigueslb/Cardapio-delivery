@@ -1,0 +1,45 @@
+.title-categoria{
+    color: var(--color-black);
+    margin-left: 5px;
+}
+
+.item-cardapio{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.container-img-produto img{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color-secondary);
+    border-radius: 15px;
+    margin-right: 20px;
+    flex: none;
+    background-size: cover
+}
+
+.infos-produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infos-produto .name{
+    font-size: 18px;
+    color: var(--color-black);
+    margin-bottom: 0px;
+}
+
+.infos-produto .description{
+    font-size: 14px;
+    color: var(--color-text);
+    margin-bottom: 5px;
+}
+
+.infos-produto .price{
+    font-size: 16px;
+    color: var(--color-primary);
+    margin-bottom: 0px;
+}
