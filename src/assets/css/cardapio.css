@@ -1,10 +1,10 @@
 .title-categoria{
     color: var(--color-black);
-    margin-left: 5px;
+    margin-left: 0.313rem;
 }
 
 .item-cardapio{
-    padding: 15px;
+    padding: 0.938rem;
     cursor: pointer;
 }
 
@@ -27,19 +27,19 @@
 }
 
 .infos-produto .name{
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--color-black);
     margin-bottom: 0px;
 }
 
 .infos-produto .description{
-    font-size: 14px;
+    font-size: 0.875rem;
     color: var(--color-text);
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 
 .infos-produto .price{
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--color-primary);
     margin-bottom: 0px;
 }

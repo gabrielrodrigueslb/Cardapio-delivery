@@ -7,7 +7,6 @@ export function ItemMenu(props){
             <div className="d-flex">
               <div
                 className="container-img-produto"
-                // style="background-image: url('./img/calabresa.jpg'); background-size: cover;"
               >
                 <img src={props.url} alt={props.name} />
               </div>

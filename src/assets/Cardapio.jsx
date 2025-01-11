@@ -1,7 +1,9 @@
+
 import { ItemMenu } from './ItemMenu';
 
 const produtos = [
   {
+    id: 1,
     url: './img/calabresa.jpg',
     name: 'Calabresa',
     description:
@@ -9,6 +11,7 @@ const produtos = [
     price: 'R$ 39,90',
   },
   {
+    id: 2,
     url: './img/4queijos.jpg',
     name: '4 Queijos',
     description:
@@ -16,6 +19,7 @@ const produtos = [
     price: 'R$ 39,90',
   },
   {
+    id:3,
     url: './img/lombo.jpg',
     name: 'Lombo com Calabresa',
     description:
@@ -33,12 +37,16 @@ export function Cardapio() {
             <b>Pizzas Tradicionais</b>
           </p>
 
+          
+
           {produtos.map((produtos) => {
             return (
               <ItemMenu
+                key={produtos.id}
                 url={produtos.url}
                 name={produtos.name}
                 description={produtos.description}
+                price={produtos.price}
               />
             );
           })}

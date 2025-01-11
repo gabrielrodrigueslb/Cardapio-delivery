@@ -23,7 +23,7 @@ section.categoria{
 }
 
 .btn-white{
-    color: var(--color-black);
+    color: var(--color-black) !important;
     background: var(--color-white);
     border-radius: 1.25rem;
     padding: 0.94rem 1.56rem;
