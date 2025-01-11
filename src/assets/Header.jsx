@@ -1,6 +1,3 @@
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '../App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 
