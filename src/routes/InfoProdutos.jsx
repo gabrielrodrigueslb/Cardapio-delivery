@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faPlus, faMinus, faBold } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import '../assets/css/InfoProdutos.css';
 
@@ -55,7 +55,24 @@ export default function InfoProdutos() {
       </section>
       <Options />
 
-      <BottomMenu />
+      <div class="menu-bottom details" id="menu-bottom">
+        <div class="add-carrinho">
+            <span class="btn-menos">
+            <FontAwesomeIcon icon={faMinus} size='lg' />
+            </span>
+            <span class="add-numero-itens">
+                2
+            </span>
+            <span class="btn-mais">
+            <FontAwesomeIcon icon={faPlus} size='lg' />
+            </span>
+        </div>
+
+        <a class="btn btn-yellow btn-sm">
+            Adicionar <span>R$49,90</span>
+        </a>
+    </div>
+
       <MenuButtonClosed />
     </div>
   );
