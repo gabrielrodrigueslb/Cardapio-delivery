@@ -1,28 +1,38 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './App.css'
-import './global.css'
-
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home } from './Home';
-import InfoProdutos from './InfoProdutos';
+import './App.module.css'
 
 
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Home } from './routes/Home.jsx';
+import InfoProdutos from './routes/InfoProdutos.jsx';
+import NotFound from './routes/NotFound.jsx';
+
+const router = createBrowserRouter([
+  {
+    path:'/',
+    element:<Home/>,
+    errorElement:<NotFound/>
+  },
+  {
+    path:'detalhes',
+    element:<InfoProdutos/>
+  },
+  {
+    path:'',
+    element:<NotFound/>
+  },
+  
+  ])
 
 
-function App() {
+
+
+export function App() {
   
   return (
     <>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/Item' element={<InfoProdutos/>} />
-        <Route path='*' element={<h1>Not found 404</h1>} />
-      </Routes>
-    </BrowserRouter>
+      <RouterProvider router={router} />
     </>
   )
 }
-
-export default App

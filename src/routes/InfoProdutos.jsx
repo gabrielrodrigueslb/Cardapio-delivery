@@ -1,15 +1,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import './assets/css/InfoProdutos.css';
+import '../assets/css/InfoProdutos.css';
 
-import { MenuButtonClosed } from './assets/MenuButtonClosed';
-import { BottomMenu } from './assets/BottomMenu';
+import { MenuButtonClosed } from '../components/MenuButtonClosed';
+import { BottomMenu } from '../components/BottomMenu';
+import { Options } from '../components/Options';
 
 export default function InfoProdutos() {
   return (
     <div>
-      <div class="bg-top details"></div>
+      <div className="bg-top details"></div>
 
       <header className="width-fix mt-3">
         <div className="card">
@@ -52,6 +53,7 @@ export default function InfoProdutos() {
           </div>
         </div>
       </section>
+      <Options />
 
       <BottomMenu />
       <MenuButtonClosed />
