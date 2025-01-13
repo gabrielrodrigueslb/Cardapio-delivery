@@ -1,6 +1,7 @@
 import '../assets/css/header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 export function Header(){
@@ -20,7 +21,7 @@ export function Header(){
                     <h1><b>Pizzaria Maluca</b></h1>
                     <div className="infos-sub">
                         <p className="status-open"><FontAwesomeIcon icon={faClock} size='1x'/> Aberta</p>
-                        <a href="#" className="link">Ver mais</a>
+                        <Link className="link" to={'/sobre'}>Ver mais</Link>
                     </div>
                 </div>
             </div>

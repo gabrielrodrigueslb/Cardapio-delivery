@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faPlus, faMinus, faBold } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import '../assets/css/InfoProdutos.css';
 
