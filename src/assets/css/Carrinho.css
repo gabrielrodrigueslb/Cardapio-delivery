@@ -54,3 +54,48 @@
     font-size: 1.125rem;
     color: var(--color-primary);
 }
+
+
+.card-select{
+    border: 2px dashed var(--color-primary) !important;
+    cursor: pointer;
+}
+
+.color-primary{
+    color: var(--color-primary) !important;
+}
+
+
+.card-address{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-icon-details{
+    width: 50px;
+    height: 50px;
+    background: var(--color-secondary);
+    color: var(--color-black);
+    font-size: 22px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-address .infos{
+    padding-inline: 15px;
+    font-size: 14px;
+}
+
+.card-address .infos .name{
+    color: var(--color-black);
+}
+
+.icon-edit{
+    font-size: 1rem;
+    color: var(--color-primary);
+}
