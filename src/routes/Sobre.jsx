@@ -1,32 +1,22 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faArrowLeft,
   faMapMarkerAlt,
   faClock,
   faCoins,
 } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import '../assets/css/Sobre.css';
+import { HeaderAlt } from '../components/HeaderAlt';
+import { ReturnToMenu } from '../components/ReturnToMenu';
 
 export default function Sobre() {
   return (
     <div>
       <div className="bg-top sobre"></div>
 
-      <header className="width-fix mt-3">
-        <div className="card">
-          <div className="d-flex container-header">
-            <Link className="container-voltar" to={'/'}>
-              <FontAwesomeIcon icon={faArrowLeft} />
-            </Link>
-            <div className="infos text-center">
-              <h1 className="mb-0">
-                <b>Sobre a loja</b>
-              </h1>
-            </div>
-          </div>
-        </div>
-      </header>
+      <HeaderAlt
+        title='Sobre a loja'
+      />
 
       <section className="width-fix mt-5 mb-4">
         <div className="card">
@@ -118,9 +108,7 @@ export default function Sobre() {
         </div>
       </section>
 
-      <Link className="btn-yellow btn-full voltar" to={'/'}>
-        Voltar para o cardápio
-      </Link>
+      <ReturnToMenu/>
 
       <section className="menu-bottom disabled hidden" id="menu-bottom-closed">
         <p className="mb-0">

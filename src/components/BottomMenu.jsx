@@ -6,6 +6,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import '../assets/css/BottomMenu.css';
+import { Link } from 'react-router-dom';
 
 export function BottomMenu() {
   return (
@@ -19,11 +20,12 @@ export function BottomMenu() {
           <FontAwesomeIcon icon={faUtensils} size="1x" />
           &nbsp; Pedido
         </a>
-        <a className="menu-bottom-item">
+
+        <Link className="menu-bottom-item" to={'/carrinho'}>
           <span className="badge-total-carrinho">2</span>
           {/* <FontAwesomeIcon icon={faShoppingCart} size="1x" />&nbsp;  */}
           Carrinho
-        </a>
+        </Link>
       </section>
 
       <section className="menu-bottom disabled hidden" id="menu-bottom-closed">

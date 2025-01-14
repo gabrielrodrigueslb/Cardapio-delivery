@@ -76,3 +76,8 @@ b{
 .hidden{
   display: none !important;
 }
+
+
+.color-primary{
+  color: var(--color-primary) !important;
+}

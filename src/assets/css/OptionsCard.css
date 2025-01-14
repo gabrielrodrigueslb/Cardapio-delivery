@@ -1,4 +1,14 @@
+.card-opcionais{
+    display: flex;
+    flex-direction: row;
+}
 
+.infos-produto-opcional{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
 
 .checks{
     margin-left: 10px;

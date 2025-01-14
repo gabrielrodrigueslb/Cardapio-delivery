@@ -8,6 +8,7 @@ import { Home } from './routes/Home.jsx';
 import InfoProdutos from './routes/InfoProdutos.jsx';
 import NotFound from './routes/NotFound.jsx';
 import Sobre from './routes/Sobre.jsx';
+import { Carrinho } from './routes/Carrinho.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path:'sobre',
     element:<Sobre/>
+  },
+  {
+    path:'carrinho',
+    element:<Carrinho/>
   },
   {
     path:'',
